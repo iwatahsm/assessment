@@ -3,7 +3,7 @@ const userNameInput = document.getElementById('user-name');
 const assessmentButton = document.getElementById('assessment');
 const resultDivided = document.getElementById('result-area');
 const tweetDivision = document.getElementById('tweet-area');
-//ｋｋｋｋｋｋｋｋ
+
 assessmentButton.onclick = () => {
   const userName = userNameInput.value;
   if (userName.length === 0) {
